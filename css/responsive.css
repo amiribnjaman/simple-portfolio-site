@@ -1,0 +1,160 @@
+@media only screen and (min-width: 1025px){
+          #header_section { height: 100vh;}
+}
+@media only screen and (min-width: 779px) and (max-width: 1024px){
+          /*-----header section----*/
+          #header_section { height: 50vh;}
+          .content_area h1 {padding-bottom: 5px; letter-spacing: 2px; font-size: 55px}
+          .menu_btn {top: 44px; left: 45px;}
+          .content_area p {font-size: 19px; margin-top: 20px; letter-spacing: .2; line-height: 30px;}
+          .content_area { top: 60%;padding-top: 77px; padding-bottom: 40px}
+          .main_menu{height: 50vh}
+          .main_menu li {padding: 4px 3px;margin-bottom: 24px;}
+
+          /*---------contact section------*/
+          #contact_section {padding:60px 0;}
+          #contact_section h2 {font-size: 26px;padding-bottom: 31px;}
+          #contact_section p{margin: 31px auto;font-size: 15px; letter-spacing: 0;}
+          .cont_area .cont_left::after {left: 301px;}
+
+}
+/*--------------tablets----------------*/
+@media only screen and (min-width: 668px) and (max-width: 778px){
+          /*-----header section----*/
+          #header_section { height: 40vh;}
+          .content_area h1 {padding-bottom: 20px; letter-spacing: 2px; font-size: 40px}
+          .menu_btn {top: 44px; left: 45px;}
+          .content_area p {font-size: 19px; margin-top: 20px; letter-spacing: .2; line-height: 30px;}
+          .content_area { top: 50%;padding-top: 77px;}
+          .main_menu{height: 40vh}
+          .main_menu li {padding: 4px 3px;margin-bottom: 24px;}
+
+          /*-----intro section----*/
+          #intro_section {padding: 75px 0;}
+          #intro_section h1 {padding-bottom: 20px; font-size: 35px}
+          #intro_section p {margin: 31px auto;font-size: 16px;letter-spacing: 0px; margin-bottom: 35px}
+          #intro_section a {padding: 10px 25px;}
+
+          /*-----services section----*/
+          #services_section {padding: 75px 0;}
+          #services_section h2 {padding-bottom: 20px;}
+          #services_section p {margin: 31px auto;font-size: 18px;letter-spacing: 0px; margin-bottom: 35px}
+          .services_box .box h4 {letter-spacing: 0px; margin-bottom: -3px;font-size: 18px;}
+          #services_section p { margin: 24px auto;font-size: 16px; letter-spacing: 0px;}
+          #services_section .row{width: 680px;margin-left: -86px;}
+          #services_section .col-md-4{max-width: 30%;margin: 5px auto;}
+
+          /*-----about section----*/
+          #about_section {padding: 25px 0;}
+          #about_section h2 {padding-bottom: 20px;}
+          #about_section p {margin: 31px auto;font-size: 18px;letter-spacing: 0px; margin-bottom: 35px}
+          .about {height: 250px;}
+          #about_section .col-md-4{max-width: 100%;}
+
+          /*-----intro section----*/
+          #choose_section {padding: 75px 0;}
+          #choose_section h2 {padding-bottom: 20px;}
+          #choose_section p {margin: 31px auto;font-size: 18px;letter-spacing: 0px; margin-bottom: 35px}
+          .con_box h3 { margin: 16px 0;font-size: 21px}
+          #choose_section p {font-size: 15px;}
+
+          /*-----intro section----*/
+          #portfolio_section {padding: 25px 0;}
+          #portfolio_section h2 {padding-bottom: 20px;}
+          #portfolio_section p {margin: 31px auto;font-size: 18px;letter-spacing: 0px; margin-bottom: 35px}
+          .button-group .button{font-size: 15px; margin-right: -6px}
+          .grid { margin: 0 0 60px 38px;}
+          #portfolio_section a{display: inline-block; margin-bottom: 20px;}
+
+          /*-----intro section----*/
+          #contact_section {padding: 75px 0;}
+          #contact_section h2 {padding-bottom: 20px;}
+          #contact_section p {margin: 31px auto;font-size: 18px;letter-spacing: 0px; margin-bottom: 35px}
+          .cont_area .cont_left {padding: 50px 0 0 25px;}
+          .cont_area .cont_left::after {left: 239px; height: 214px}
+          cont_message {padding-left: 40px;}
+          .cont_area .cont_left h4 {margin-top: 2px;font-size: 22px;}
+          #contact_section a {margin-left: 281px;}
+}
+
+/*--------------mobile----------------*/
+@media only screen and (min-width: 375px) and (max-width: 667px){
+          /*--------------header-------------*/
+          #header_section {height: 60vh;}
+          .menu_btn {top: 40px;left: 33px; height: 22px;}
+          .menu_btn span {width: 22px;}
+          .effect .line_1 { transform: rotate(45deg) translate(7px, 3px)}
+          .effect .line_3 {transform: rotate(-45deg) translate(7px, -4px)}
+          .main_menu {width: 100%;height: 60vh;}
+          .main_menu ul {width: 192px;}
+          .main_menu ul li {padding: 0px 3px;}
+          .content_area{width:90%;}
+          .content_area h1 {font-size: 26px;letter-spacing: 1px;padding-bottom: 31px;}
+          .content_area p {width: 100%;line-height: 24px;letter-spacing: 0px;font-size: 16px; margin: 20px;}
+
+          /*--------------intro---------------*/
+          #intro_section {padding: 64px 0;}
+          #intro_section h1 {font-size: 26px;padding-bottom: 31px;}
+          #intro_section p {width: 90%;margin: 31px auto;font-size: 15px; letter-spacing: 0;}
+          #intro_section a {padding: 9px 21px;font-size: 15px;}
+          #intro_section a:hover{background:#d37b5a;}
+
+          /*-------------services--------------*/
+          #services_section {padding: 64px 0;}
+          #services_section h2 {font-size: 26px;padding-bottom: 31px;}
+          #services_section .heading p {width: 90%;margin: 31px auto;font-size: 15px; letter-spacing: 0;}
+          #services_section .col-md-4{max-width: 100% !important; margin: 0 auto; margin-bottom: 10px;padding: 30px 10px;}
+          .services_box .box i { font-size: 35px;}
+          .services_box .box h4 {font-size: 20px; font-weight: bold;}
+          .services_box .box p{font-size: 15px}
+          .services_box .box a{padding: 9px 20px;font-size: 14px;}
+          .services_box .box a:hover{box-shadow: 0px 1px 6px 1px #b3815d;}
+
+          /*-------------services--------------*/
+          #about_section {padding:20px 0;}
+          #about_section h2 {font-size: 26px;padding-bottom: 31px;}
+          #about_section p{width: 90%;margin: 31px auto;font-size: 15px; letter-spacing: 0;}
+          #about_section .col-md-4{max-width: 100%}
+          .about {height: 250px; width: 250px; margin: 10px auto;}
+
+          /*-------------choose--------------*/
+          #choose_section {padding:60px 0;}
+          #choose_section h2 {font-size: 26px;padding-bottom: 31px;}
+          #choose_section > p{width: 90%;margin: 31px auto;font-size: 15px; letter-spacing: 0;}
+          #choose_section .choose_content .col-md-4{max-width: 100%; }
+          .choose_content .con_box {margin-top: 50px;}
+          .choose_content .con_box i { font-size: 35px;}
+          .choose_content .con_box h3 {font-size: 20px; font-weight: bold;}
+          .choose_content .con_box p{width: 90%;margin: auto;}
+
+          /*------------portfolio-------------*/
+          #portfolio_section {padding:20px 0;}
+          #portfolio_section h2 {font-size: 26px;padding-bottom: 31px;}
+          #portfolio_section  p{width: 90%;margin: 31px auto;font-size: 15px; letter-spacing: 0;}
+          #portfolio_section .button{padding: 5px;font-size: 13px;text-align: center;}
+          #portfolio_section .button-group { display: inline-block;text-align: center; width: 80%; margin:10px auto;}
+          .grid {width: 90%; margin: auto}
+          #portfolio_section a { margin-bottom: 15px;display: inline-block;padding: 9px 21px;font-size: 15px;background:#d37b5a;}
+
+          /*------------contact-------------*/
+          #contact_section {padding:60px 0;}
+          #contact_section h2 {font-size: 26px;padding-bottom: 31px;}
+          #contact_section p{width: 90%;margin: 31px auto;font-size: 15px; letter-spacing: 0;}
+          .cont_area .cont_left {padding:0; margin: 30px 0 10px 35px; }
+          .cont_area .cont_left h4{width: 100%;}
+          #contact_section .col-md-4{max-width: 100%;}
+          .cont_area .cont_left ul li{padding: 5px 0;}
+          .cont_area .cont_left::after {display: none}
+          .cont_message {margin-left: 15px;}
+          #contact_section a{margin-left: 29px}
+
+          /*-------------footer section------------------*/
+          #footer_section {padding: 15px;}
+          #footer_section h6 {font-size: 15px;}
+
+          /*-----------to top arrow--------------*/
+          .to_top_arrow a {bottom: 11px;right: 14px;padding: 5px 10px;}
+          .cont_message input{padding: 9px 5px;}
+          .cont_message > h5 {font-size: 18px;}
+          .cont_message input::placeholder{font-size: 15px;}
+}

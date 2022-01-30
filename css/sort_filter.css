@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Red+Rose:wght@300;400;700&display=swap');
+
+* { box-sizing: border-box }
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: transparent;
+  border: none;
+  border-radius: 7px;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.button:hover {
+color: rgb(34, 192, 197);
+}
+
+.button:active,
+.button.is-checked {
+  color: rgb(34, 192, 197);
+}
+
+.button.is-checked {
+ color: rgb(34, 192, 197);
+}
+
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid{
+   overflow-x: hidden;
+   margin: auto;
+   margin-bottom: 85px;
+   margin-left: 90px;
+   
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 200px;
+  margin: 5px;
+  color: #262524;
+}
+/* .last_items:first-child{
+     margin-left: 90px;
+} */
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+.element-item.alkali, .element-item.alkaline-earth ,.element-item.lanthanoid, .element-item.actinoid,.element-item.transition, .element-item.post-transition, .element-item.metalloid, .element-item.diatomic,.element-item.halogen, .element-item.noble-gas{
+          width: 300px;
+          height: 200px;
+          position: relative;
+}
+
+.image img{
+          width: 100%;
+          height: 100%;
+}
